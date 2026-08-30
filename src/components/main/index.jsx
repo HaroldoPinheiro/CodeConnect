@@ -1,6 +1,6 @@
 export const Main = ({ children }) => {
   return (
-    <main className="flex flex-col pt-14 pr-4 pb-14 pl-4 bg-background h-screen">
+    <main className="flex flex-col items-center py-14 px-4 bg-background h-screen gap-14">
       {children}
     </main>
   );
