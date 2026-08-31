@@ -1,14 +1,7 @@
-import { Button } from "./components/Button";
-import { Main } from "./components/main";
-import { LogoCodeConnect } from "./components/LogoCodeConnect";
+import { AboutUs } from "./pages/AboutUs";
 
 function App() {
-  return (
-    <Main>
-      <LogoCodeConnect />
-      <Button color="green">Publicar</Button>
-    </Main>
-  );
+  return <AboutUs />;
 }
 
 export default App;
