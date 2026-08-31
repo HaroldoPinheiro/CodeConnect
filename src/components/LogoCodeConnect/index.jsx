@@ -1,3 +1,3 @@
 export const LogoCodeConnect = () => {
-  return <img src="../../public/Logo.svg" alt="Logo do CodeConnect" className="h-10"/>;
+  return <img src="src\assets\images\Logo.svg" alt="Logo do CodeConnect" className="h-10"/>;
 };
