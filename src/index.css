@@ -5,11 +5,14 @@
   /* Cores */
   --color-background: #01080e;
   --color-highlight-green: #81fe88;
+  --color-dark-gray: #171d1f;
   --color-medium-gray: #888888;
-  --color-light-gray: #BCBCBC;
-  --color-offwhite: #E1E1E1;
+  --color-light-gray: #bcbcbc;
+  --color-offwhite: #e1e1e1;
 }
 
 body {
   font-family: "Prompt", sans-serif;
+  background-color: var(--color-background);
+  box-sizing: border-box;
 }
